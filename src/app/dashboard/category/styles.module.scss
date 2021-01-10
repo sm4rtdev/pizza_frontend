@@ -1,0 +1,30 @@
+.container{
+  max-width: 720px;
+  margin: 20px auto;
+  padding: 0 16px;
+
+  display: flex;
+  flex-direction: column;
+  
+  h1{
+    color: var(--white);
+  }
+
+}
+
+.form{
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  margin: 16px 0;
+}
+
+.input{
+  height: 40px;
+  border:0;
+  background-color: var(--dark-900);
+  border-radius: 8px;
+  padding: 0 16px;
+  color: var(--white);
+  border: 1px solid var(--gray-100)
+}
